@@ -1,0 +1,3 @@
+Добавьте новую запись в коллекцию posts
+
+db.posts.insertOne({"title" : "Post1", "content" : "Content1", "author" : "Author1", "like" : 120, "dislike" : 15})

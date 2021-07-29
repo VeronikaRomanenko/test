@@ -1,0 +1,72 @@
+ <!-- Сверстайте страницу логина, которая должна содержать только форму с полями email, password. -->
+
+<style type="text/css">
+	.login-background {
+		position: fixed;
+    	left: 0;
+	    top: 0;
+    	width: 100%;
+	    height: 100%;
+    	display: flex;
+	    align-items: center;
+    	align-content: center; 
+	    justify-content: center;
+	}
+	.login-form {
+    	border: 1px solid #a3a3a3;
+    	border-radius: 20px;
+	    padding: 0 3%;
+	    text-align: center;
+	}
+	.login-form .heading {
+    	display: block;
+	    font-size: 25px;
+    	font-weight: 700;
+	    padding: 25px 0;
+    	border-bottom: 1px solid #d1d1d1;
+	    margin-bottom: 30px;
+	}
+	.group {
+		margin-bottom: 10px;
+	}
+	.btn {
+		border: 0;
+		border-radius: 5px;
+		background: #4676D7;
+		color: #fff;
+		padding: 8px 16px;
+		font-size: 16px;
+	}
+	.input {
+		border: 1px solid #d1d1d1;
+		border-radius: 3px;
+		padding: 2%;
+	}
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<div class="login-background">
+		<form class="login-form">
+            <span class="heading">ВХОД</span>
+            <div>
+                <div class="group">
+                    <input class="input" type="text" placeholder="Логин" />
+                </div>
+                <div class="group">
+                    <input class="input" placeholder="Пароль" />
+                </div>
+                <div class="group">
+                    <button type="submit" class="btn">Войти</button>
+                </div>
+            </div>
+    	</form>
+    </div>
+</body>
+</html>

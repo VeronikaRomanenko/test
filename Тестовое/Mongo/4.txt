@@ -1,0 +1,3 @@
+Выведите список авторов и их общее количество like
+
+db.posts.aggregate([{$group: { _id : "$author", likes: { $sum: "$like"}}}])

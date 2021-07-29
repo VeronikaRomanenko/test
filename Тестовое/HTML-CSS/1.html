@@ -1,0 +1,47 @@
+<!-- Опишите все известные вам способы позиционирования 5 элементов по центру, каждый из которых должен занимать 20%. -->
+
+<style type="text/css">
+	/*Способ 1*/
+	/*.box {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+	}
+	.box div {
+		width: 20%;
+	}*/
+
+	/*Способ 2*/
+	/** {
+		box-sizing: border-box;
+	}
+	.box div {
+		width: 19%;
+		display: inline-block;
+	}*/
+
+	.box div {
+		text-align: center;
+		opacity: 0.5;
+		background-color: #000;
+		color: #fff;
+	}
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<div class="box">
+		<div><p>Div 1</p></div>
+		<div><p>Div 2</p></div>
+		<div><p>Div 3</p></div>
+		<div><p>Div 4</p></div>
+		<div><p>Div 5</p></div>
+	</div>
+</body>
+</html>

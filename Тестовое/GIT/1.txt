@@ -1,0 +1,9 @@
+Внести изменения в ветке dev репозитория git@example.com:example/test.git, добавив в корень файл Readme.md с текстом ### May be in future и залить их на удаленный репозиторий. Напишите набор команд для решения этой задачи с коментариями.
+
+git clone git@example.com:example/test.git # клонирую репозиторий
+cd test # перехожу в репозиторий
+git checkout dev # перехожу на ветку dev
+# создаю файл Readme.md и ввожу в него текст
+git add Readme.md # добавляю файл Readme.md в ветку
+git commit -m "commit_with_new_readme" # сохраняю изменения
+git push # вношу изменения в репозиторий
